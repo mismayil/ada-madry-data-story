@@ -4,6 +4,11 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
+gem "jekyll"
 gem 'github-pages'
 
 gem "webrick", "~> 1.7"
+
+group :jekyll_plugins do
+    gem 'jekyll-timeago', '~> 0.13.1'
+end
