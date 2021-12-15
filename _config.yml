@@ -1,7 +1,7 @@
 # Site settings
 title: Do words have (our) characters?
 tag_text: Do words have (our) characters?
-description: A responsive template for publishing single-page websites, articles that are easy on the eyes
+description: What words tell us about people
 url: "http://127.0.0.1:4000"
 baseurl: "/words-personalities"
 
