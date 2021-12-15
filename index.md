@@ -13,6 +13,11 @@ Before delving into various analysis on personalities, we would like to give you
 
 ### Some funny title for politicians analysis
 
+Let's compare some politicians!
+<iframe height="750" width="88%" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
+
+
+
 ### Some funny title for gender analysis
 
 ### Some funny title for country analysis
