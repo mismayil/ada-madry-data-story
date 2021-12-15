@@ -154,7 +154,7 @@ word-wrap: break-word;
 .container img {
   margin: 2em auto 2em auto;
   display: block;
-  max-width: 75%;
+  max-width: 90%;
 }
 
 @media (max-width: 635px) {
@@ -193,7 +193,7 @@ pre > code {
 }
 
 .container {
-  max-width: 625px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 0.75rem;
 }
