@@ -30,6 +30,11 @@ Our results agree to the research in agreeableness and conscientiousness but con
 However, the personality rating is to some extent subjective. Even for the experts in this specific case, Trump supporters and Clinton supporters will rate significantly differently, as depicted in [a later finding](https://www.sciencedirect.com/science/article/pii/S0191886918300850).
 
 
+<iframe height="1100" width="100%" frameborder="no" src="html/pca_politician.html"></iframe>
+<br /> 
+
+
+
 ### Some funny title for gender analysis
 
 ### Some funny title for country analysis
