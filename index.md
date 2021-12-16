@@ -53,7 +53,7 @@ Entrepreneur or Artist ?
 When we think about an entrepreneur, we imagine a driven, extraverted, energetic, action-oriented person. 
 We might not think the same about an artist. However, there have been several studies comparing the personality traits of entrepreneurs and artists.
 Surprisingly enough, most of the researches show that both entrepreneurs and artists are quite similar to each other in personality.
-We are trying to reproduce the result using personality analysis on quotebank data.
+We are trying to reproduce some of the key results from the paper [`The economic psychology of creating and venturing: a comparative behavioural portrait of artists and entrepreneurs `](https://link.springer.com/article/10.1007/s11187-020-00420-1) using personality analysis on quotebank data.
 
 <img src="images/artist_entrepreneur_heatmap.png" alt="drawing" width="5000"/>
 
