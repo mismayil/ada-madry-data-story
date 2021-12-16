@@ -29,11 +29,13 @@ Trump scores very low on agreeableness, conscientiousness and emotional stabilit
 Our results agree to the research in agreeableness and conscientiousness but contradicts in extraversion, neuroticism and openness. 
 However, the personality rating is to some extent subjective. Even for the experts in this specific case, Trump supporters and Clinton supporters will rate significantly differently, as depicted in [a later finding](https://www.sciencedirect.com/science/article/pii/S0191886918300850).
 
+#### Can we cluster similar politicians together?
+To cluster the politicians in terms of their personality, we first perform PCA to reduce the dimension of our dataset since we have 35 variables for personality traits. Then based on PC1 and PC2, the major two dimensions that explain most of the variations, we produce k-means clustering. We choose k = 2 as the optimal one by looking at the total WSS and silhouette plots.
 
-<iframe height="1100" width="100%" frameborder="no" src="html/pca_politician.html"></iframe>
-<br /> 
+<iframe height="750" width="100%" frameborder="no" src="html/pca_politician_k_2.html"></iframe>
+Moreover, we also would like to have a more detailed clustering for politicians, we find k = 4 also give a reasonably good result on silhouette and WSS plots.
 
-
+<iframe height="750" width="100%" frameborder="no" src="html/pca_politician_k_4.html"></iframe>
 
 ### Some funny title for gender analysis
 
