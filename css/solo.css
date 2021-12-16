@@ -278,3 +278,7 @@ h3 {
 h2 {
   font-family: 'Parisienne', cursive;
 }
+
+.choices {
+  width: 400px;
+}

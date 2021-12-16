@@ -6,6 +6,7 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
@@ -14,8 +15,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Parisienne&family=Shadows+Into+Light&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
-
   <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
@@ -50,6 +51,30 @@
     .type("emotions?")
     .go();
   });
+
+  PERSONALITY_ATTRS = ['neuroticism', 'anxiety', 'hostility', 'depression',
+                     'self_consciousness', 'immoderation', 'vulnerability', 'extraversion',
+                     'friendliness', 'gregariousness', 'assertiveness', 'activity_level',
+                     'excitement_seeking', 'cheerfulness', 'openness', 'imagination',
+                     'artistic_interests', 'emotionality', 'adventurousness', 'intellect',
+                     'liberalism', 'agreeableness', 'trust', 'morality', 'altruism',
+                     'cooperation', 'modesty', 'sympathy', 'conscientiousness',
+                     'self_efficacy', 'orderliness', 'dutifulness', 'achievement_striving',
+                     'self_discipline', 'cautiousness']
+  attributes = []
+  for (let attr of PERSONALITY_ATTRS) {
+    attributes.push({label: attr, value: attr, disabled: false, selected: false})
+  }
+  const element = document.querySelector('.personality-selector');
+  const choices = new Choices(element, {
+    choices: attributes,
+    placeholder: true,
+    placeholderValue: "Select a personality"
+  });
+  personality_frame_el = document.querySelector('.personality-frame');
+  element.addEventListener('choice', function(event) {
+    personality_frame_el.src = `html/world-map-${event.detail.choice.value}.html`
+  })
 </script>
 </body>
 </html>

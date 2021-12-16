@@ -22,6 +22,9 @@ Let's compare some politicians!
 
 ### Some funny title for country analysis
 
+<select class="personality-selector"></select>
+<iframe class="personality-frame" height="500" width="100%" frameborder="no" src="html/world-speakers.html"> </iframe>
+
 ### Some funny title for suicide analysis
 
 ### Some funny title for entrepreneur/artist analysis
