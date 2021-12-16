@@ -47,7 +47,22 @@ Moreover, we also would like to have a more detailed clustering for politicians,
 ### Some funny title for suicide analysis
 
 ### Some funny title for entrepreneur/artist analysis
+Bill Gates/Murray ?
+Entrepreneur or Artist ?
 
+When we think about an entrepreneur, we imagine a driven, extraverted, energetic, action-oriented person. 
+We might not think the same about an artist. However, there have been several studies comparing the personality traits of entrepreneurs and artists.
+Surprisingly enough, most of the researches show that both entrepreneurs and artists are quite similar to each other in personality.
+We are trying to reproduce the result using personality analysis on quotebank data.
+
+<img src="images/artist_entrepreneur_heatmap.png" alt="drawing" width="5000"/>
+
+From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness of artists and entrepreneurs. 
+
+We can see that even the distributions are quite similar to each other. However, to put a cherry on the top we did hypothesis testing on the similarity of the big five personality score values of artists and entrepreneurs. 
+The signifince test shows that the personality values for artists and entrepreneurs are similar.
+
+The research also shows that Artists score higher in emotionality and agreeableness at the same time entrepreneurs score higher in self-efficasy and extraversion. Our analysis agrees with the research in emotionality and agreeableness values. However, it also shows that artists again scores higher in self-efficasy and extraversion. To check the significance of these values, we did hypothesis testing on them. T test on theses values show that the difference is not significant. Which means that there is no significant difference in personality of artists and entrepreneurs.
 
 ### Conclusion
 
