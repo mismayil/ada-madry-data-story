@@ -1,5 +1,5 @@
-This is as Jekyll theme built to make single page websites, articles, or literary masterpieces readable anywhere.
+# Words and Personalities
 
-### [Demo and Documentation](https://adueck.github.io/good-clean-read)
+This repo contains website the code for Madry team's final ADA project.
 
 Built on top of <a href="http://chibicode.github.io/solo">Solo</a>, by [Shu Uesugi](https://github.com/chibicode)

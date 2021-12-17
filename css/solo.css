@@ -320,8 +320,7 @@ p {
   color: brown;
 }
 
-#footnote {
-  padding-top: 200px;
+.footnote {
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
@@ -342,4 +341,9 @@ p {
 #names {
   font-weight: 1000;
   font-size: 20px;
+}
+
+.center-text {
+  margin-left: 40%;
+  text-align: center;
 }
