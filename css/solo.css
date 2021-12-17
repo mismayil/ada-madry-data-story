@@ -287,3 +287,59 @@ h2 {
 p {
   text-align: justify;
 }
+
+.choices__inner {
+  min-height: 0;
+}
+
+#letter-l {
+  color: black;
+}
+
+#sleepy-crazy {
+  color: red;
+}
+
+#neurotic-consc {
+  color: blue;
+}
+
+#shining-light {
+  background-image: linear-gradient(to right, #606060, white);
+}
+
+#bill-gm {
+  color: grey;
+}
+
+#world-person {
+  color: green;
+}
+
+#conclusion {
+  color: brown;
+}
+
+#footnote {
+  padding-top: 200px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+#repo {
+  font-weight: bold;
+}
+
+#lafin {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2rem;
+  margin-left: 50%;
+  padding-top: 100px;
+}
+
+#names {
+  font-weight: 1000;
+  font-size: 20px;
+}

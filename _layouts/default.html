@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Parisienne&family=Shadows+Into+Light&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gloria+Hallelujah&family=Parisienne&family=Shadows+Into+Light&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
   <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
   <link rel="canonical" href="{{ site.url }}" />
@@ -63,7 +63,7 @@
                      'self_discipline', 'cautiousness']
   attributes = []
   for (let attr of PERSONALITY_ATTRS) {
-    attributes.push({label: attr, value: attr, disabled: false, selected: false})
+    attributes.push({label: attr, value: attr, disabled: false, selected: attr == "depression" ? true : false})
   }
   const element = document.querySelector('.personality-selector');
   const choices = new Choices(element, {
