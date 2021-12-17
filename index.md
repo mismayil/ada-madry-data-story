@@ -2,11 +2,11 @@
 layout: default
 ---
 
-## Some interesting personality quote 
+## "Words are the model, words are the tools, words are the boards, words are the nails."<br/>Richard Rhodes
 
 ### Introduction
 
-Language is the main mode of communication through which a person expresses their thoughts and feelings. We tend to form an opinion of a person after just a few interactions with them either through spoken or written conversation. This then raises an interesting question: Do language use truly reflect personality types? While the idea that language and personality are related is not new [[1]](www.google.com), systematic examination of how word use relates to individual differences in personality traits have only been studied by researchers in the recent past [[2]](https://rap.ucr.edu/FastFunder.pdf "Fast and Funder, 2008")[[3]](https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life). Inspired by these studies, in this article, we aim to explore and analyze this relationship using Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020 [[4]](https://zenodo.org/record/4277311#.YbzEdy3004Y). 
+Language is the main mode of communication through which a person expresses their thoughts and feelings. We tend to form an opinion of a person after just a few interactions with them either through spoken or written conversation. This then raises an interesting question: Does language use truly reflect personality types? While the idea that language and personality are related is not new [[1]](www.google.com), systematic examination of how word use relates to individual differences in personality traits have only been studied by researchers in the recent past [[2]](https://rap.ucr.edu/FastFunder.pdf "Fast and Funder, 2008")[[3]](https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life). Inspired by these studies, in this article, we aim to explore and analyze this relationship using Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020 [[4]](https://zenodo.org/record/4277311#.YbzEdy3004Y). 
 
 #### From Text to Personality Score
 Before delving into various analysis on personalities, we would like to give you a background on the core ideas and methods enabling our study. We are given a corpus of text for each speaker and somehow, we would like to transform this text to a number so that we can quantify the personality of a speaker and do all kinds of comparisons. How do you go from a piece of text to a personality measure you ask? Good question! We asked the same question and luckily, we were not the first people to have thought about it! There have been several studies on this topic in the past that have shown significant correlations between different word categories (e.g. pronouns, positive/negative words etc.) and personality types. Most of these studies focus on finding the relationship between personality types and so-called LIWC word categories[[5]](https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts) using supervised learning methods. After an extensive examination of these psycho-linguistic study papers, we decided to use the correlation results found between the Big Five personality types[[6]](https://en.wikipedia.org/wiki/Big_Five_personality_traits) and LIWC word categories, from a large-scale study of personality and word use among bloggers[[7]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/). 
@@ -22,7 +22,9 @@ The results are quite interesting indeed. We find that while Donald Trump and Li
 #### The Grand Standoff
 Let's zoom in a bit more and compare the famous rivals in terms of their personality.
 <img src="images/hillary_trump.png" alt="drawing" width="5000"/>
-The score of the 1000 people's control group is used to generate the boxplots above, the actual data points are also plotted in black. While the counterparts for Donald Trump and Hillary Clinton are plotted in red and blue respectively.
+- <span style="color:black">Boxplots & transparent black dots: 1000 People in Control Group</span>
+- <span style="color:red">Red dot: Donald Trump</span>
+- <span style="color:blue">Blue dot: Hillary Clinton</span>
 
 According to the paper [[9]](https://www.sciencedirect.com/science/article/pii/S0191886917305688?casa_token=1aBX0HMkSQ0AAAAA:I4CHEpEfM9LRiQCrsLw1lk61IUt0MJu2RvD8L7t_PV_xBHisPnM8Z78xrEyfTpqa1Xo7ollgvM7L)
 Clinton scores low on neuroticism, average on agreeableness, extraversion, openness, and high on conscientiousness while
@@ -96,6 +98,7 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 <iframe class="personality-frame" height="500" width="100%" frameborder="no" src="html/world-map-depression.html"> </iframe>
 
 ### Conclusion
+The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death and , and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.
 
 ### Team, Links to repo
 
