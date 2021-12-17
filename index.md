@@ -107,11 +107,11 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 
 ### References
 [1]: [Stanford, 1942](www.google.com) <br/>
-[2]: ["Personality as Manifest in Word Use"](https://www.researchgate.net/publication/https://rap.ucr.edu/FastFunder.pdf) <br/>
-[3]: https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life "Personality in its natural habitat"<br/>
-[4]: https://zenodo.org/record/4277311#.YbzEdy3004Y "Quotebank"<br/>
-[5]: https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts "LIWC"<br/>
-[6]: https://en.wikipedia.org/wiki/Big_Five_personality_traits "Big five personality traits"<br/>
+[2]: [Personality as Manifest in Word Use](https://www.researchgate.net/publication/https://rap.ucr.edu/FastFunder.pdf) <br/>
+[3]: [Personality in its natural habitat](https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life) <br/>
+[4]: [Quotebank](https://zenodo.org/record/4277311#.YbzEdy3004Y) <br/>
+[5]: ["LIWC"](https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts) <br/>
+[6]: [Big five personality traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits) <br/>
 [7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/ "Personality in 100000 words"<br/>
 [8]: https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf "LIWC operational manual"<br/>
 [9]: https://www.sciencedirect.com/science/article/pii/S0191886917305688?casa_token=1aBX0HMkSQ0AAAAA:I4CHEpEfM9LRiQCrsLw1lk61IUt0MJu2RvD8L7t_PV_xBHisPnM8Z78xrEyfTpqa1Xo7ollgvM7L "Personality campaign style" <br/>
