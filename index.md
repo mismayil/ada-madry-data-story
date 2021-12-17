@@ -16,7 +16,7 @@ More concretely, given a sample corpus of text for a sample of speakers, we firs
 
 ### The Sleepy, The Crazy and The Others
 Quotebank dataset contains quotes mostly from politicians and this is not surprising as they tend to dominate the news around the world. US politicians especially stand out in terms of the coverage they get in the media with over 200k quotes attributed just to Donald Trump. Then naturally we thought it might be interesting to analyze these politicians' personalities and see if they reflect our perception about these politicians. We selected top 200 US politicians (100 Democrats and 100 Republicans) quoted the most and made an interactive heatmap to easily compare their personalities across all dimensions.
-<iframe height="700" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
+<iframe height="800" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/new_poli/"> </iframe>
 The results are quite interesting indeed. We find that while Donald Trump and Lindsey Graham are quite close on most scales of personality, Obama and Trump seem to have opposite personalities. On the other hand, Obama and George W. Bush show similar traits. Individually, we note that Trump has high depression, low orderliness, Obama has high emotionality, Bernie Sanders has high neuroticism and Biden shows high modesty, morality and trust while scoring quite low on excitement seeking and extraversion.
 
 #### Validation for Politician Analysis
