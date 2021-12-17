@@ -63,7 +63,7 @@ To answer this, we have extracted the quotes of suicide victims from Quotebank, 
 <img src="images/suicide-histograms.svg" />
 
 From the plots above we can observe that suicide victims have higher traits like **depression**, **anxiety** and **neuroticism**. These differences are obvious from the plots alone, but they are supported by hypothesis testing we ran on the figures as well. One would intuitively connect these traits to suicide, and more importantly they have been linked with suicide in studies. This gives us confidence that our method can correctly identify personality traits based on quotes alone.<br/><br/>
-We also observe increased **cheerfulness** in the suicide victim population, something that one would not expect to be the case. How can some of the most miserable people be so cheerful? This could be explained with the fact that a lot of depressed people mask their emotional state, and do it rather well. A great example would be Robin Williams (not present in the dataset, missed by a few years) who was one of the greatest comedians of his time, making people all over the world laugh and earning recognition and awards for his films. Like Williams, a lot of depressed people hide their sadness behind a facade of cheerfulness.<br/><br/>
+We also observe increased **cheerfulness** in the suicide victim population, something that one would not expect to be the case. How can some of the most miserable people be so cheerful? This could be explained with the fact that a lot of depressed people mask their emotional state, and do it rather well. A great example would be Robin Williams (not present in the dataset, missed by a few years) who was one of the greatest comedians of his time, making people all over the world laugh and earning recognition and awards for his films. Like Williams, a lot of depressed people hide their sadness behind a facade of cheerfulness.
 
 ### Bill Gates/Murray ?
 
@@ -98,7 +98,8 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 <iframe class="personality-frame" height="500" width="100%" frameborder="no" src="html/world-map-depression.html"> </iframe>
 
 ### Conclusion
-The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death and , and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.
+The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death, and nationality, and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.</br></br>
+In conclusion, we can say that a person's words and they way they use them definitely portrays their personality. Be careful what you say, you may reveal more than you mean to.
 
 ### Team, Links to repo
 
