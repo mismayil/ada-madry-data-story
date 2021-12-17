@@ -57,14 +57,17 @@ If there are stark differences in personalities across genders, could they be a 
 Bill Gates/Murray ?
 Entrepreneur or Artist ?
 
-When we think about an entrepreneur, we imagine a driven, extraverted, energetic, action-oriented person. 
-We might not think the same about an artist. However, there have been several studies comparing the personality traits of entrepreneurs and artists.
-Surprisingly enough, most of the researches show that both entrepreneurs and artists are quite similar to each other in personality.
-We are trying to reproduce some of the key results from the paper [`The economic psychology of creating and venturing: a comparative behavioural portrait of artists and entrepreneurs `](https://link.springer.com/article/10.1007/s11187-020-00420-1) using personality analysis on quotebank data.
+If someone ask you to explain the personaity traits of an entrepreneur, what would you say?
+Most people would describe a driven, extraverted, energetic, action-oriented person. 
+However, they might not describe the same for an artist. What do you think? are entrepreneurs and artists quite similar to each other in their personality traits or are they different?
+There have been several studies comparing the personality traits of entrepreneurs and artists [10].
+Surprisingly enough, most of these researches show that both entrepreneurs and artists are quite similar to each other in personality. Let's see what quotebank data has to say about our question.
+
+We selected quotes of top 100 entrepreneurs and artists and analysed the personality between them. Guess who is the top entrepreneur speaker ? You are right if you guessed Trump! Who can ever beat him? (Biden obviously XD)
 
 <img src="images/artist_entrepreneur_heatmap.png" alt="drawing" width="5000"/>
 
-From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness of artists and entrepreneurs. 
+From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness. 
 
 <img src="images/entrepreneur_artist_dist.png" alt="drawing" width="5000"/>
 
@@ -97,3 +100,4 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 [7] Personality in 100000 paper
 [8] LIWC software
 [9] Gender difference paper
+[10] https://link.springer.com/article/10.1007/s11187-020-00420-1
