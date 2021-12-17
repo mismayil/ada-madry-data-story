@@ -14,10 +14,10 @@ Before delving into various analysis on personalities, we would like to give you
 More concretely, given a sample corpus of text for a sample of speakers, we first run this text through the commercial LIWC software[[8]](https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf) (seriously, we bought it!) to produce a matrix of frequency numbers (let's call it L) where rows correspond to a speaker and columns are the different word categories. On the other hand, we have a matrix of correlations (let's call it C) between the very same word categories and all the Big Five personality types and subtypes (extracted from [[7]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/)). We then simply multiply these matrices (we also first normalize L across word categories) to produce our personality scores (let's call it P). Mathematically speaking, P = LC where the rows of P correspond to different speakers and columns are the different facets of Big Five personality traits (e.g. depression, trust, dutifulness etc.) Voila! We started with a piece of text and ended up with a bunch of numbers presumably corresponding to personalities of people. In the rest of the article, we will try to analyze these numbers for people across professions, idealogies, countries, genders etc. to see whether these correlations hold and reveal the real world of personalities.
 
 
-### Some funny title for politicians analysis
-
-Let's compare some politicians!
+### The Sleepy, The Crazy and The Others
+Quotebank dataset contains quotes mostly from politicians and this is not surprising as they tend to dominate the news around the world. US politicians especially stand out in terms of the coverage they get in the media with over 200k quotes attributed just to Donald Trump. Then naturally we thought it might be interesting to analyze these politicians' personalities and see if they reflect our perception about these politicians. We selected top 200 US politicians (100 Democrats and 100 Republicans) quoted the most and made an interactive heatmap to easily compare their personalities across all dimensions.
 <iframe height="700" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
+The results are quite interesting indeed. We find that while Donald Trump and Lindsey Graham are quite close on most scales of personality, Obama and Trump seem to have opposite personalities. On the other hand, Obama and George W. Bush show similar traits. Individually, we note that Trump has high depression, low orderliness, Obama has high emotionality, Bernie Sanders has high neuroticism and Biden shows high modesty, morality and trust while scoring quite low on excitement seeking and extraversion.
 
 #### Validation for Politician Analysis
 
@@ -40,17 +40,23 @@ To cluster the politicians in terms of their personality, we first perform PCA t
 K-means clustering gives us two groups and we rename the two groups as `Cheerful Gregarious` and `Intellectual Liberals` based on the interpretation of PCA. 
 
 
-### Women are more neurotic and men are more conscientious
+### Neurotic Extraverts and Conscientious Adventurers
 If you are still wondering why we haven't applied our algorithm on a typical gender analysis, wonder no more! Of course we did and we got some interesting results. We selected quotes for top 1000 men and women speakers (500 each) and analyzed the personality scores between them. Let's first look at a heatmap of correlations to get a sense:
 <img src="images/gender-heatmap.png" alt="gender-heatmap" width="5000"/>
-We can see unsurprisingly that men and women differ on most dimensions. But how significant are these results? Let's check the underlying distributions. Let's first check the neuroticism:
-<img src="images/gender-neuroticism.png" alt="gender-neurotic" width="5000"/>
-These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [9]. Previous findings have in fact shown that women are known to report higher scores on Neuroticism and almost all of its subtypes. 
-Similarly we find that men are more conscientious:
-<img src="images/gender-conscientiousness.png" alt="gender-conscient" width="5000"/>
+We can see unsurprisingly that men and women differ on most dimensions. But how significant are these results? We found that most of the differences are quite significant as well. 
+Let's check the underlying distributions for both men and women:
+<img src="images/gender-female.png" alt="gender-female" width="5000"/>
+These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. But they also score quite high on extraversion, excitement seeking and gregariousness. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [9]. Previous findings have in fact shown that women are known to report higher scores on Neuroticism and Extraversion.
+
+On the other hand we find that men are more conscientious while being great adventurers at the same time:
+<img src="images/gender-male.png" alt="gender-male" width="5000"/>
+We should also note that people in our dataset are high achievers which mean they might not manifest the same gender personality differences we see in ordinary people. For example, women are known to be more agreeable than men in general, but in our analysis we found the difference not to be as significant and even tilted towards men. This might indicate that women push the boundaries of disagreeableness to achieve a high status in the society.
 
 #### Can personality alone predict your gender?
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
+
+As a bonus, we also built a decision tree to identify the gender of a person given their personality trait scores and achieved a 71% cross-validated accuracy. 
+<img src="images/gender-tree.svg" alt="gender-tree" width="100%"/>
 
 ### Shining a light onto the dark side
 Every year 703 000 people take their own life, and many more attempt suicide[[11]](https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full). Each one of these cases is a tragedy, affecting the victim's family and friends, and leaving lasting scars. There is still much we have yet to learn about suicide, as our current understanding is underwhelming, but suicide has been linked to negative personality traits like **depression** and **anxiety** [[12]](https://www.who.int/news-room/fact-sheets/detail/suicide) [[13]](https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html). Can we observe these traits by just looking into a person's quotes?<br/><br/>
