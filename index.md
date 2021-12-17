@@ -65,11 +65,12 @@ Surprisingly enough, most of these researches show that both entrepreneurs and a
 
 We selected quotes of top 100 entrepreneurs and artists and analysed the personality between them. Guess who is the top entrepreneur speaker ? You are right if you guessed Trump! Who can ever beat him? (Biden obviously XD)
 
-<img src="images/entrepreneur_artist_heatmap.png" alt="drawing" width="5000"/>
+<img src="images/entrepreneur_artist_heatmap.png" alt="entrepreneur_heatmap" width="5000"/>
 
 From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness. 
 
-<img src="images/entrepreneur_artist_dist.png" alt="drawing" width="5000"/>
+<img src="images/entrepreneur_artist_dist_1.png" alt="entrepreneur_hist" width="5000"/>
+<img src="images/entrepreneur_artist_dist_1.png" alt="entrepreneur_hist" width="5000"/>
 
 We can see that even the distributions are quite similar to each other. However, to put a cherry on the top we did hypothesis testing on the similarity of the big five personality score values of artists and entrepreneurs. 
 The signifince test shows that the personality values for artists and entrepreneurs are similar.
