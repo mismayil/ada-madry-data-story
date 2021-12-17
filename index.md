@@ -102,19 +102,3 @@ The method we devised has proven itself able to identify personality attributes 
 
 ### Team, Links to repo
 
-### References
-[1] [Stanford, 1942](www.google.com) <br/>
-[2] [Personality as Manifest in Word Use](https://www.researchgate.net/publication/https://rap.ucr.edu/FastFunder.pdf) <br/>
-[3] [Personality in its natural habitat](https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life) <br/>
-[4] [Quotebank](https://zenodo.org/record/4277311#.YbzEdy3004Y) <br/>
-[5] ["LIWC"](https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts) <br/>
-[6] [Big five personality traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits) <br/>
-[7] [Personality in 100000 words](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/) <br/>
-[8] [LIWC operational manual](https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf) <br/>
-[9] [Personality campaign style](https://www.sciencedirect.com/science/article/pii/S0191886917305688?casa_token=1aBX0HMkSQ0AAAAA:I4CHEpEfM9LRiQCrsLw1lk61IUt0MJu2RvD8L7t_PV_xBHisPnM8Z78xrEyfTpqa1Xo7ollgvM7L) <br/>
-[10] [Personality profiles of Hillary Clinton and Donald Trump](https://www.sciencedirect.com/science/article/pii/S0191886918300850)  <br/>
-[11] [Gender difference in personality](https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full) <br/>
-[12] [Suicide](https://www.who.int/news-room/fact-sheets/detail/suicide) <br/>
-[13] [Does depression increase the risk for suicide?](https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html) <br/>
-[14] [The Relationship Between Anxiety Disorders and Suicide Attempts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/) <br/>
-[15] [A comparative behavioural portrait of artists and entrepreneurs](https://link.springer.com/article/10.1007/s11187-020-00420-1) <br/>
