@@ -35,9 +35,10 @@ However, the personality rating is to some extent subjective. Even for the exper
 To cluster the politicians in terms of their personality, we first perform PCA to reduce the dimension of our dataset since we have 35 variables for personality traits. Then based on PC1 and PC2, the major two dimensions that explain most of the variations, we produce k-means clustering. We choose k = 2 as the optimal one by looking at the total WSS and silhouette plots.
 
 <iframe height="750" width="100%" frameborder="no" src="html/pca_politician_k_2.html"></iframe>
-Moreover, we also would like to have a more detailed clustering for politicians, we find k = 4 also give a reasonably good result on silhouette and WSS plots.
 
-<iframe height="750" width="100%" frameborder="no" src="html/pca_politician_k_4.html"></iframe>
+
+K-means clustering gives us two groups and we rename the two groups as `Cheerful Gregarious` and `Intellectual Liberals` based on the interpretation of PCA. 
+
 
 ### Women are more neurotic and men are more conscientious
 If you are still wondering why we haven't applied our algorithm on a typical gender analysis, wonder no more! Of course we did and we got some interesting results. We selected quotes for top 1000 men and women speakers (500 each) and analyzed the personality scores between them. Let's first look at a heatmap of correlations to get a sense:
