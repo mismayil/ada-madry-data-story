@@ -46,7 +46,7 @@ If you are still wondering why we haven't applied our algorithm on a typical gen
 We can see unsurprisingly that men and women differ on most dimensions. But how significant are these results? We found that most of the differences are quite significant as well. 
 Let's check the underlying distributions for both men and women:
 <img src="images/gender-female.png" alt="gender-female" width="5000"/>
-These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. But they also score quite high on extraversion, excitement seeking and gregariousness. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [9]. Previous findings have in fact shown that women are known to report higher scores on Neuroticism and Extraversion.
+These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. But they also score quite high on extraversion, excitement seeking and gregariousness. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [[10]](https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full). Previous findings have in fact shown that women are known to report higher scores on Neuroticism and Extraversion.
 
 On the other hand we find that men are more conscientious while being great adventurers at the same time:
 <img src="images/gender-male.png" alt="gender-male" width="5000"/>
