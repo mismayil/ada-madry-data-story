@@ -17,7 +17,14 @@ More concretely, given a sample corpus of text for a sample of speakers, we firs
 ### Some funny title for politicians analysis
 
 Let's compare some politicians!
-<iframe height="700" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
+<iframe height="600" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
+
+- Barack Obama and George W. Bush have similar personalities based on their quotations.
+- Donald Trump and Lindsey Graham are quite close on most scales of personality.
+- Obama and Trump seem to have opposite personality.
+- A few more details:
+  - Trump has high depression and low orderliness
+  - Bush has high assertiveness, extraversion and low hostility, neuroticism, anxiety
 
 #### Validation for Politician Analysis
 
