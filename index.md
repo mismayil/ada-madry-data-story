@@ -23,7 +23,9 @@ Let's compare some politicians!
 
 <img src="images/hillary_trump.png" alt="drawing" width="5000"/>
 
-The score of the 1000 people's control group is used to generate the boxplots above, the actual data points are also plotted in black. While the counterparts for Donald Trump and Hillary Clinton are plotted in red and blue respectively.
+- <span style="color:black">Boxplots & transparent black dots: 1000 People in Control Group</span>
+- <span style="color:red">Red dot: Donald Trump</span>
+- <span style="color:blue">Blue dot: Hillary Clinton</span>
 
 According to the [paper `Perceived personality and campaign style of Hillary Clinton and Donald Trump`](https://www.sciencedirect.com/science/article/pii/S0191886917305688?casa_token=1aBX0HMkSQ0AAAAA:I4CHEpEfM9LRiQCrsLw1lk61IUt0MJu2RvD8L7t_PV_xBHisPnM8Z78xrEyfTpqa1Xo7ollgvM7L) where the big five personality score of Trump and Clinton are evaluated by domain experts as below. 
 Clinton scores low on neuroticism, average on agreeableness, extraversion, openness, and high on conscientiousness.
