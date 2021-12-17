@@ -52,6 +52,13 @@ Similarly we find that men are more conscientious:
 #### Can personality alone predict your gender?
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
 
+
+**Predict Gender by Decision Tree Classification**
+
+Cross validation shows that when depth is 4, we have the highest accuracy on the validation set. Hence depth = 4 is used for building up the decision tree.
+![tree](./images/tree_depth4_gender.svg)
+
+
 ### Some funny title for suicide analysis
 
 ### Some funny title for entrepreneur/artist analysis
