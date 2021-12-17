@@ -100,16 +100,13 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 ### Team, Links to repo
 
 ### References
-[1] Sanford, 1942
-[2]: https://rap.ucr.edu/FastFunder.pdf "Fast and Funder, 2008"
-[3] Mehl et al., 2006
-[4] Quotebank
-[5] LIWC Category
-[6] https://en.wikipedia.org/wiki/Big_Five_personality_traits
-[7] Personality in 100000 paper
-[8] LIWC software
-[9] Gender difference paper
-[10] https://link.springer.com/article/10.1007/s11187-020-00420-1
-[Andrija_1] https://www.who.int/news-room/fact-sheets/detail/suicide
-[Andrija_2] https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html
-[Andrija_3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/
+[1]:  "Stanford, 1942" 
+[2]: https://rap.ucr.edu/FastFunder.pdf "Personality as Manifest in Word Use"
+[3]: https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life "Personality in its natural habitat"
+[4]: https://zenodo.org/record/4277311#.YbzEdy3004Y "Quotebank"
+[5]: https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts "LIWC"
+[6]: https://en.wikipedia.org/wiki/Big_Five_personality_traits "Big five personality traits"
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/ "Personality in 100000 words"
+[8]: https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf "LIWC operational manual"
+[9]: https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full "Gender difference in personality"
+[10]: https://link.springer.com/article/10.1007/s11187-020-00420-1 "A comparative behavioural portrait of artists and entrepreneurs"
