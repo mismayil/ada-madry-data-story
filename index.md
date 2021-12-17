@@ -17,22 +17,13 @@ More concretely, given a sample corpus of text for a sample of speakers, we firs
 ### Some funny title for politicians analysis
 
 Let's compare some politicians!
-<iframe height="600" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
-
-- Barack Obama and George W. Bush have similar personalities based on their quotations.
-- Donald Trump and Lindsey Graham are quite close on most scales of personality.
-- Obama and Trump seem to have opposite personality.
-- A few more details:
-  - Trump has high depression and low orderliness
-  - Bush has high assertiveness, extraversion and low hostility, neuroticism, anxiety
+<iframe height="700" width="1000" frameborder="no" src="https://yirencao.shinyapps.io/polis/"> </iframe>
 
 #### Validation for Politician Analysis
 
 <img src="images/hillary_trump.png" alt="drawing" width="5000"/>
 
-- <span style="color:black">Boxplots & transparent black dots: 1000 People in Control Group</span>
-- <span style="color:red">Red dot: Donald Trump</span>
-- <span style="color:blue">Blue dot: Hillary Clinton</span>
+The score of the 1000 people's control group is used to generate the boxplots above, the actual data points are also plotted in black. While the counterparts for Donald Trump and Hillary Clinton are plotted in red and blue respectively.
 
 According to the [paper `Perceived personality and campaign style of Hillary Clinton and Donald Trump`](https://www.sciencedirect.com/science/article/pii/S0191886917305688?casa_token=1aBX0HMkSQ0AAAAA:I4CHEpEfM9LRiQCrsLw1lk61IUt0MJu2RvD8L7t_PV_xBHisPnM8Z78xrEyfTpqa1Xo7ollgvM7L) where the big five personality score of Trump and Clinton are evaluated by domain experts as below. 
 Clinton scores low on neuroticism, average on agreeableness, extraversion, openness, and high on conscientiousness.
@@ -61,17 +52,11 @@ Similarly we find that men are more conscientious:
 #### Can personality alone predict your gender?
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
 
-
-**Predict Gender by Decision Tree Classification**
-
-Cross validation shows that when depth is 4, we have the highest accuracy on the validation set. Hence depth = 4 is used for building up the decision tree.
-![tree](./images/tree_depth4_gender.svg)
-
-
 ### Some funny title for suicide analysis
 
-### Entrepreneur or Artist ?
-
+### Some funny title for entrepreneur/artist analysis
+Bill Gates/Murray ?
+Entrepreneur or Artist ?
 
 If someone ask you to describe the personaity traits of an entrepreneur, what would you say?
 Most people would describe a driven, extraverted, energetic, action-oriented person. 
