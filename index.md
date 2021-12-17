@@ -98,7 +98,7 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 <iframe class="personality-frame" height="500" width="100%" frameborder="no" src="html/world-map-depression.html"> </iframe>
 
 ### Conclusion
-The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death, and nationality, and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.</br></br>
+The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death, and nationality, and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.<br/><br/>
 In conclusion, we can say that a person's words and they way they use them definitely portrays their personality. Be careful what you say, you may reveal more than you mean to.
 
 ### Team, Links to repo
