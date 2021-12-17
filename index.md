@@ -100,16 +100,16 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 ### Team, Links to repo
 
 ### References
-[1] Sanford, 1942
-[2] Fast and Funder, 2008
-[3] Mehl et al., 2006
-[4] Quotebank
-[5] LIWC Category
-[6] https://en.wikipedia.org/wiki/Big_Five_personality_traits
-[7] Personality in 100000 paper
-[8] LIWC software
-[9] Gender difference paper
-[10] https://link.springer.com/article/10.1007/s11187-020-00420-1
-[Andrija_1] https://www.who.int/news-room/fact-sheets/detail/suicide
-[Andrija_2] https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html
-[Andrija_3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/
+[1] Sanford, 1942<br/>
+[2] Fast and Funder, 2008<br/>
+[3] Mehl et al., 2006<br/>
+[4] Quotebank<br/>
+[5] LIWC Category<br/>
+[6] https://en.wikipedia.org/wiki/Big_Five_personality_traits<br/>
+[7] Personality in 100000 paper<br/>
+[8] LIWC software<br/>
+[9] Gender difference paper<br/>
+[10] https://link.springer.com/article/10.1007/s11187-020-00420-1<br/>
+[Andrija_1] https://www.who.int/news-room/fact-sheets/detail/suicide "Suicide"<br/>
+[Andrija_2] https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html "Does depression increase the risk for suicide?"<br/>
+[Andrija_3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/ "The Relationship Between Anxiety Disorders and Suicide Attempts: Findings from the National Epidemiologic Survey on Alcohol and Related Conditions"<br/>
