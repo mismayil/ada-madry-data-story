@@ -29,7 +29,7 @@ According to the paper [[9]](https://www.sciencedirect.com/science/article/pii/S
 Clinton scores low on neuroticism, average on agreeableness, extraversion, openness, and high on conscientiousness.
 Trump scores very low on agreeableness, conscientiousness and emotional stability, average on openness, and very high on extraversion.
 Our results agree to the research in agreeableness and conscientiousness but contradicts in extraversion, neuroticism and openness. 
-However, the personality rating is to some extent subjective. Even for the experts in this specific case, Trump supporters and Clinton supporters will rate significantly differently, as depicted in [a later finding](https://www.sciencedirect.com/science/article/pii/S0191886918300850).
+However, the personality rating is to some extent subjective. Even for the experts in this specific case, Trump supporters and Clinton supporters will rate significantly differently, as depicted in a later finding [[10]](https://www.sciencedirect.com/science/article/pii/S0191886918300850).
 
 #### Can we cluster similar politicians together?
 To cluster the politicians in terms of their personality, we first perform PCA to reduce the dimension of our dataset since we have 35 variables for personality traits. Then based on PC1 and PC2, the major two dimensions that explain most of the variations, we produce k-means clustering. We choose k = 2 as the optimal one by looking at the total WSS and silhouette plots.
@@ -53,7 +53,7 @@ Similarly we find that men are more conscientious:
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
 
 ### Shining a light onto the dark side
-Every year 703 000 people take their own life, and many more attempt suicide[Andrija_1]. Each one of these cases is a tragedy, affecting the victim's family and friends, and leaving lasting scars. There is still much we have yet to learn about suicide, as our current understanding is underwhelming, but suicide has been linked to negative personality traits like **depression** and **anxiety**[Andrija_2] [Andrija_3]. Can we observe these traits by just looking into a person's quotes?<br/><br/>
+Every year 703 000 people take their own life, and many more attempt suicide[Andrija_1]. Each one of these cases is a tragedy, affecting the victim's family and friends, and leaving lasting scars. There is still much we have yet to learn about suicide, as our current understanding is underwhelming, but suicide has been linked to negative personality traits like **depression** and **anxiety**[[11]](https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full) [[12]](https://www.who.int/news-room/fact-sheets/detail/suicide). Can we observe these traits by just looking into a person's quotes?<br/><br/>
 To answer this, we have extracted the quotes of suicide victims from Quotebank, and then compared them to a control group - a selection of the most quoted speakers. You can see the comparison between the distribution of these two groups below.
 
 <img src="images/suicide-histograms.svg" />
