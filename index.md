@@ -57,11 +57,11 @@ If there are stark differences in personalities across genders, could they be a 
 Bill Gates/Murray ?
 Entrepreneur or Artist ?
 
-If someone ask you to explain the personaity traits of an entrepreneur, what would you say?
+If someone ask you to describe the personaity traits of an entrepreneur, what would you say?
 Most people would describe a driven, extraverted, energetic, action-oriented person. 
-However, they might not describe the same for an artist. What do you think? are entrepreneurs and artists quite similar to each other in their personality traits or are they different?
+However, they might not describe the same for an artist. What do you think? Are entrepreneurs and artists quite similar to each other in their personality traits or are they different?
 There have been several studies comparing the personality traits of entrepreneurs and artists [10].
-Surprisingly enough, most of these researches show that both entrepreneurs and artists are quite similar to each other in personality. Let's see what quotebank data has to say about our question.
+Surprisingly enough, most of these researches show that both entrepreneurs and artists are quite similar to each other in their personality traits. Let's see what quotebank data has to say about our question.
 
 We selected quotes of top 100 entrepreneurs and artists and analysed the personality between them. Guess who is the top entrepreneur speaker ? You are right if you guessed Trump! Who can ever beat him? (Biden obviously XD)
 
