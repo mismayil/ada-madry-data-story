@@ -282,3 +282,8 @@ h2 {
 .choices {
   width: 400px;
 }
+
+/* Justify paragraphs */
+p {
+  text-align: justify;
+}

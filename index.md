@@ -52,7 +52,14 @@ Similarly we find that men are more conscientious:
 #### Can personality alone predict your gender?
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
 
-### Some funny title for suicide analysis
+### Shining a light onto the dark side
+Every year 703 000 people take their own life, and many more attempt suicide[Andrija_1]. Each one of these cases is a tragedy, affecting the victim's family and friends, and leaving lasting scars. There is still much we have yet to learn about suicide, as our current understanding is underwhelming, but suicide has been linked to negative personality traits like **depression** and **anxiety**[Andrija_2] [Andrija_3]. Can we observe these traits by just looking into a person's quotes?<br/><br/>
+To answer this, we have extracted the quotes of suicide victims from Quotebank, and then compared them to a control group - a selection of the most quoted speakers. You can see the comparison between the distribution of these two groups below.
+
+<img src="images/Suicide-Plots-Screenshot.png" />
+
+From the plots above we can observe that suicide victims have higher traits like **depression**, **anxiety** and **neuroticism**. These differences are obvious from the plots alone, but they are supported by hypothesis testing we ran on the figures as well. One would intuitively connect these traits to suicide, and more importantly they have been linked with suicide in studies. This gives us confidence that our method can correctly identify personality traits based on quotes alone.<br/><br/>
+We also observe increased **cheerfulness** in the suicide victim population, something that one would not expect to be the case. How can some of the most miserable people be so cheerful? This could be explained with the fact that a lot of depressed people mask their emotional state, and do it rather well. A great example would be Robin Williams (not present in the dataset, missed by a few years) who was one of the greatest comedians of his time, making people all over the world laugh and earning recognition and awards for his films. Like Williams, a lot of depressed people hide their sadness behind a facade of cheerfulness.<br/><br/>
 
 ### Some funny title for entrepreneur/artist analysis
 Bill Gates/Murray ?
@@ -102,3 +109,6 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 [8] LIWC software
 [9] Gender difference paper
 [10] https://link.springer.com/article/10.1007/s11187-020-00420-1
+[Andrija_1] https://www.who.int/news-room/fact-sheets/detail/suicide
+[Andrija_2] https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html
+[Andrija_3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/
