@@ -70,9 +70,8 @@ Cross validation shows that when depth is 4, we have the highest accuracy on the
 
 ### Some funny title for suicide analysis
 
-### Some funny title for entrepreneur/artist analysis
-Bill Gates/Murray ?
-Entrepreneur or Artist ?
+### Entrepreneur or Artist ?
+
 
 If someone ask you to describe the personaity traits of an entrepreneur, what would you say?
 Most people would describe a driven, extraverted, energetic, action-oriented person. 
