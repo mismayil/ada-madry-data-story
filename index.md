@@ -40,14 +40,17 @@ To cluster the politicians in terms of their personality, we first perform PCA t
 K-means clustering gives us two groups and we rename the two groups as `Cheerful Gregarious` and `Intellectual Liberals` based on the interpretation of PCA. 
 
 
-### Women are more neurotic and men are more conscientious
+### Neurotic Extraverts and Conscientious Adventurers
 If you are still wondering why we haven't applied our algorithm on a typical gender analysis, wonder no more! Of course we did and we got some interesting results. We selected quotes for top 1000 men and women speakers (500 each) and analyzed the personality scores between them. Let's first look at a heatmap of correlations to get a sense:
 <img src="images/gender-heatmap.png" alt="gender-heatmap" width="5000"/>
-We can see unsurprisingly that men and women differ on most dimensions. But how significant are these results? Let's check the underlying distributions. Let's first check the neuroticism:
-<img src="images/gender-neuroticism.png" alt="gender-neurotic" width="5000"/>
-These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [9]. Previous findings have in fact shown that women are known to report higher scores on Neuroticism and almost all of its subtypes. 
-Similarly we find that men are more conscientious:
-<img src="images/gender-conscientiousness.png" alt="gender-conscient" width="5000"/>
+We can see unsurprisingly that men and women differ on most dimensions. But how significant are these results? We found that most of the differences are quite significant as well. 
+Let's check the underlying distributions for both men and women:
+<img src="images/gender-female.png" alt="gender-neurotic" width="5000"/>
+These graphs (and the accompanying significance tests) clearly show that women tend to be more neurotic than men. But they also score quite high on extraversion, excitement seeking and gregariousness. These results are actually not so surprising if we take a look at the literature on the gender differences in personality such as [9]. Previous findings have in fact shown that women are known to report higher scores on Neuroticism and Extraversion.
+
+On the other hand we find that men are more conscientious while being great adventurers at the same time:
+<img src="images/gender-male.png" alt="gender-conscient" width="5000"/>
+We should also note that people in our dataset are high achievers which mean they might not manifest the same gender personality differences we see in ordinary people. For example, women are known to be more agreeable than men in general, but in our analysis we found the difference not to be as significant and even tilted towards men. This might indicate that women push the boundaries of disagreeableness to achieve a high status in the society.
 
 #### Can personality alone predict your gender?
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated 76% accuracy. And guess what were the best predictors among all the personality traits? You guessed it right! Neuroticism and conscientiousness.
@@ -73,11 +76,12 @@ Surprisingly enough, most of these researches show that both entrepreneurs and a
 
 We selected quotes of top 100 entrepreneurs and artists and analysed the personality between them. Guess who is the top entrepreneur speaker ? You are right if you guessed Trump! Who can ever beat him? (Biden obviously XD)
 
-<img src="images/entrepreneur_artist_heatmap.png" alt="drawing" width="5000"/>
+<img src="images/entrepreneur_artist_heatmap.png" alt="entrepreneur_heatmap" width="5000"/>
 
 From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness. 
 
-<img src="images/entrepreneur_artist_dist.png" alt="drawing" width="5000"/>
+<img src="images/entrepreneur_artist_dist_1.png" alt="entrepreneur_hist_1" width="5000"/>
+<img src="images/entrepreneur_artist_dist_2.png" alt="entrepreneur_hist_2" width="750"/>
 
 We can see that even the distributions are quite similar to each other. However, to put a cherry on the top we did hypothesis testing on the similarity of the big five personality score values of artists and entrepreneurs. 
 The signifince test shows that the personality values for artists and entrepreneurs are similar.
