@@ -106,8 +106,8 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 ### Team, Links to repo
 
 ### References
-[1]: [Stanford, 1942](www.google.com)
-[2]: ["Personality as Manifest in Word Use"](https://www.researchgate.net/publication/https://rap.ucr.edu/FastFunder.pdf)
+[1]: [Stanford, 1942](www.google.com) <br/>
+[2]: ["Personality as Manifest in Word Use"](https://www.researchgate.net/publication/https://rap.ucr.edu/FastFunder.pdf) <br/>
 [3]: https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life "Personality in its natural habitat"<br/>
 [4]: https://zenodo.org/record/4277311#.YbzEdy3004Y "Quotebank"<br/>
 [5]: https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts "LIWC"<br/>
