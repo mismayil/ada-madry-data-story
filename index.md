@@ -71,7 +71,7 @@ We selected quotes of top 100 entrepreneurs and artists and analysed the persona
 From the above heatmap, we can see that both entrepreneurs and artists are quite similar in many personality types. To truly understand the similarity we compared the distribution of the personality scores for the big five personality types i.e, neuroticism, extraversion, agreeableness, conscientiousness, openness. 
 
 <img src="images/entrepreneur_artist_dist_1.png" alt="entrepreneur_hist_1" width="5000"/>
-<img src="images/entrepreneur_artist_dist_2.png" alt="entrepreneur_hist_2" width="1000"/>
+<img src="images/entrepreneur_artist_dist_2.png" alt="entrepreneur_hist_2" width="500"/>
 
 We can see that even the distributions are quite similar to each other. However, to put a cherry on the top we did hypothesis testing on the similarity of the big five personality score values of artists and entrepreneurs. 
 The signifince test shows that the personality values for artists and entrepreneurs are similar.
