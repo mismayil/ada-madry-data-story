@@ -6,7 +6,7 @@ layout: default
 
 ### Introduction
 
-Language is the main mode of communication through which a person expresses their thoughts and feelings. We tend to form an opinion of a person after just a few interactions with them either through spoken or written conversation. This then raises an interesting question: Do language use truly reflect personality types? While the idea that language and personality are related is not new [1], systematic examination of how word use relates to individual differences in personality traits have only been studied by researchers in the recent past [2][3]. Inspired by these studies, in this article, we aim to explore and analyze this relationship using Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. [4]
+Language is the main mode of communication through which a person expresses their thoughts and feelings. We tend to form an opinion of a person after just a few interactions with them either through spoken or written conversation. This then raises an interesting question: Do language use truly reflect personality types? While the idea that language and personality are related is not new [1], systematic examination of how word use relates to individual differences in personality traits have only been studied by researchers in the recent past [[2]](https://rap.ucr.edu/FastFunder.pdf "Fast and Funder, 2008")[3]. Inspired by these studies, in this article, we aim to explore and analyze this relationship using Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020. [4]
 
 #### From Text to Personality Score
 Before delving into various analysis on personalities, we would like to give you a background on the core ideas and methods enabling our study. We are given a corpus of text for each speaker and somehow, we would like to transform this text to a number so that we can quantify the personality of a speaker and do all kinds of comparisons. How do you go from a piece of text to a personality measure you ask? Good question! We asked the same question and luckily, we were not the first people to have thought about it! There have been several studies on this topic in the past that have shown significant correlations between different word categories (e.g. pronouns, positive/negative words etc.) and personality types. Most of these studies focus on finding the relationship between personality types and so-called LIWC word categories[5] using supervised learning methods. After an extensive examination of these psycho-linguistic study papers, we decided to use the correlation results found between the Big Five personality types[6] and LIWC word categories, from a large-scale study of personality and word use among bloggers[7]. 
@@ -100,16 +100,16 @@ With this simple analysis out of the way, we will choose 100 most quoted people 
 ### Team, Links to repo
 
 ### References
-[1] Sanford, 1942<br/>
-[2] Fast and Funder, 2008<br/>
-[3] Mehl et al., 2006<br/>
-[4] Quotebank<br/>
-[5] LIWC Category<br/>
-[6] https://en.wikipedia.org/wiki/Big_Five_personality_traits<br/>
-[7] Personality in 100000 paper<br/>
-[8] LIWC software<br/>
-[9] Gender difference paper<br/>
-[10] https://link.springer.com/article/10.1007/s11187-020-00420-1<br/>
+[1]:  "Stanford, 1942" <br/>
+[2]: https://rap.ucr.edu/FastFunder.pdf "Personality as Manifest in Word Use"<br/>
+[3]: https://www.researchgate.net/publication/7046272_Personality_in_its_natural_habitat_Manifestations_and_implicit_folk_theories_of_personality_in_daily_life "Personality in its natural habitat"<br/>
+[4]: https://zenodo.org/record/4277311#.YbzEdy3004Y "Quotebank"<br/>
+[5]: https://www.researchgate.net/publication/231608775_Linguistic_Inquiry_and_Word_Count_LIWC_pronounced_Luke_and_other_useful_facts "LIWC"<br/>
+[6]: https://en.wikipedia.org/wiki/Big_Five_personality_traits "Big five personality traits"<br/>
+[7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/ "Personality in 100000 words"<br/>
+[8]: https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf "LIWC operational manual"<br/>
+[9]: https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full "Gender difference in personality"<br/>
+[10]: https://link.springer.com/article/10.1007/s11187-020-00420-1 "A comparative behavioural portrait of artists and entrepreneurs"<br/>
 [Andrija_1] https://www.who.int/news-room/fact-sheets/detail/suicide "Suicide"<br/>
 [Andrija_2] https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html "Does depression increase the risk for suicide?"<br/>
 [Andrija_3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940247/ "The Relationship Between Anxiety Disorders and Suicide Attempts: Findings from the National Epidemiologic Survey on Alcohol and Related Conditions"<br/>
