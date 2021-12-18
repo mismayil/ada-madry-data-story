@@ -347,3 +347,64 @@ p {
   margin-left: 40%;
   text-align: center;
 }
+
+
+.card {
+  width: 280px;
+}
+
+
+/* Anything bellow here isn't necessary, it's only for the demo */
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Special Elite', cursive;
+}
+
+/* Set some height to cards */
+.card:nth-child(1) {
+  background-color: #D50000;
+  color: white;
+  height: 200px;
+}
+
+.card:nth-child(2) {
+  height: 240px;
+  background-color: #FFDE03;
+  color: black;
+}
+
+.card:nth-child(3) {
+  height: 210px;
+  background-color: #03DAC6;
+  color: black;
+}
+
+.card:nth-child(4) {
+  height: 230px;
+  background-color: #6200EE;
+  color: white;
+}
+
+.card:nth-child(5) {
+  height: 220px;
+  background-color: black;
+  color: white;
+}
+
+.cards {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bigfive-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: 'Poiret One', cursive;
+}

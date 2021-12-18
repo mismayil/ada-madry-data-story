@@ -13,6 +13,54 @@ Before delving into various analysis on personalities, we would like to give you
 
 More concretely, given a sample corpus of text for a sample of speakers, we first run this text through the commercial LIWC software[[8]](https://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf) (seriously, we bought it!) to produce a matrix of frequency numbers (let's call it `L`) where rows correspond to speakers and columns are the different word categories. On the other hand, we have a matrix of correlations (let's call it `C`) between the very same word categories and all the Big Five personality types and subtypes (extracted from [[7]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885844/)). We then simply multiply these matrices (we also first normalize `L` across word categories) to produce our personality scores (let's call it `P`). Mathematically speaking, `P = LC` where the rows of P correspond to different speakers and columns are the different facets of Big Five personality traits (e.g. depression, trust, dutifulness etc.) Voila! We started with a piece of text and ended up with a bunch of numbers presumably corresponding to personalities of people. In the rest of the article, we will try to analyze these numbers for people across professions, idealogies, countries, genders etc. to see whether these correlations hold and reveal the real world of personalities.
 
+#### What is Big Five anyways?
+The Big Five Model developed from the 1980s onwards is the most widely accepted personality theory held by psychologists today. The theory states that personality can be boiled down to five core factors, known by the acronym ***CANOE*** or ***OCEAN***. In addition to the five categories, each trait is also broken down into multiple facets. Although currently, there is no consensus as to the identity and number of facets within the Big Five, below we list the most commonly used ones grouped under each personality trait.
+<div class="cards">
+<div class="card">
+<span class="bigfive-title">Neuroticism</span><br/>
+<span>anxiety</span><br/>
+<span>hostility</span><br/>
+<span>self-consciousness</span><br/>
+<span>immoderation</span><br/>
+<span>vulnerability</span>
+</div>
+<div class="card">
+<span class="bigfive-title">Extraversion</span><br/>
+<span>friendliness</span><br/>
+<span>gregariousness</span><br/>
+<span>assertiveness</span><br/>
+<span>activity level</span><br/>
+<span>excitement seeking</span><br/>
+<span>cheerfulness</span>
+</div>
+<div class="card">
+<span class="bigfive-title">Openness</span><br/>
+<span>imagination</span><br/>
+<span>artistic interests</span><br/>
+<span>emotionality</span><br/>
+<span>adventurousness</span><br/>
+<span>intellect</span><br/>
+<span>liberalism</span>
+</div>
+<div class="card">
+<span class="bigfive-title">Agreeableness</span><br/>
+<span>trust</span><br/>
+<span>morality</span><br/>
+<span>altruism</span><br/>
+<span>cooperation</span><br/>
+<span>modesty</span><br/>
+<span>sympathy</span>
+</div>
+<div class="card">
+<span class="bigfive-title">Conscientiousness</span><br/>
+<span>self-efficacy</span><br/>
+<span>orderliness</span><br/>
+<span>dutifulness</span><br/>
+<span>achievement striving</span><br/>
+<span>self-discipline</span><br/>
+<span>cautiousness</span>
+</div>
+</div>
 
 ### <span id="sleepy-crazy">The Sleepy, The Crazy and The Others</span>
 Quotebank dataset contains quotes mostly from politicians and this is not surprising as they tend to dominate the news around the world. US politicians especially stand out in terms of the coverage they get in the media with over 200k quotes attributed just to Donald Trump. Then naturally we thought it might be interesting to analyze these politicians' personalities and see if they reflect our perception about these people. We selected top **200 US politicians** (100 Democrats and 100 Republicans) who are quoted the most and made an interactive heatmap to easily compare their personalities across all dimensions.
@@ -103,7 +151,7 @@ We can see that while the West is pretty stable, Africa, Europe and Asia seem to
 
 ### <span id="conclusion">Conclusion</span>
 The method we devised has proven itself able to identify personality attributes of the speaker based on the quotes alone. We have focused on different groups of people, based on their occupation, gender, manner of death, and nationality, and have been able to make conclusions about their personalities that are grounded in previous scholarly work, as well as some novel ones.<br/><br/>
-In conclusion, we can say that a person's words and they way they use them definitely portrays their personality. Be careful what you say, you may reveal more than you mean to.
+In conclusion, we can say that a person's words and they way they use them definitely portrays their personality. Be careful what you say, you may reveal more than you mean to!
 
 <span id="repo">For more information you can refer to our analysis [repo](https://github.com/epfl-ada/ada-2021-project-madry).</span><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 

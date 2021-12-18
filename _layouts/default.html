@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gloria+Hallelujah&family=Parisienne&family=Shadows+Into+Light&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gloria+Hallelujah&family=Parisienne&family=Poiret+One&family=Shadows+Into+Light&family=Special+Elite&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
   <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <script src="https://unpkg.com/minigrid@3.1.1/dist/minigrid.min.js"></script>
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
@@ -74,7 +75,26 @@
   personality_frame_el = document.querySelector('.personality-frame');
   element.addEventListener('choice', function(event) {
     personality_frame_el.src = `html/world-map-${event.detail.choice.value}.html`
-  })
+  });
+  (function(){
+  var grid;
+  function init() {
+    grid = new Minigrid({
+      container: '.cards',
+      item: '.card',
+      gutter: 12
+    });
+    grid.mount();
+  }
+  
+  // mount
+  function update() {
+    grid.mount();
+  }
+
+  document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('resize', update);
+  })();
 </script>
 </body>
 </html>
