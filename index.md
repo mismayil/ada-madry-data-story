@@ -102,7 +102,7 @@ We should also note that people in our dataset are high achievers which mean the
 If there are stark differences in personalities across genders, could they be a good predictor of a gender? Maybe. We ran a simple logistic regression model using solely the personality attributes to predict the gender of a person and it achieved a cross-validated **76% accuracy**. And guess what were the best predictors among all the personality traits? You guessed it right! ***Neuroticism and conscientiousness***.
 
 As a bonus, we also built a decision tree to identify the gender of a person given their personality trait scores and achieved a **71% cross-validated accuracy**. 
-<img src="images/gender-tree.svg" alt="gender-tree" width="100%"/>
+<img src="images/tree_depth4_gender.svg" alt="gender-tree" width="100%"/>
 
 ### <span id="shining-light">Shining a light onto the dark side</span>
 Every year 703,000 people take their own life, and many more attempt suicide[[11]](https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00178/full). Each one of these cases is a tragedy, affecting the victim's family and friends, and leaving lasting scars. There is still much we have yet to learn about suicide, as our current understanding is underwhelming, but suicide has been linked to negative personality traits like **depression** and **anxiety** [[12]](https://www.who.int/news-room/fact-sheets/detail/suicide) [[13]](https://www.hhs.gov/answers/mental-health-and-substance-abuse/does-depression-increase-risk-of-suicide/index.html). Can we observe these traits by just looking into a person's quotes?<br/><br/>
