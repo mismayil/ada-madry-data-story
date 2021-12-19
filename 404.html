@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="What words tell us about people">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do words have (our) characters?</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
+  <link rel="stylesheet" href="/words-personalities/css/normalize.css">
+  <link rel="stylesheet" href="/words-personalities/css/solo.css">
+  <link rel="stylesheet" href="/words-personalities/css/syntax.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/words-personalities/css/rrssb.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gloria+Hallelujah&family=Parisienne&family=Poiret+One&family=Shadows+Into+Light&family=Special+Elite&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+  <script src="/words-personalities/scripts/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <script src="https://unpkg.com/minigrid@3.1.1/dist/minigrid.min.js"></script>
+  <link rel="canonical" href="http://127.0.0.1:4000" />
+</head>
+<body>
+  <article>
+   <div class="container">
+    <h1 class="title" id="title"></h1>
+    ## No such thing as that, sorry
+
+Page Not Found.
+
+    </div>
+  </article>
+<script src="/words-personalities/scripts/rrssb.min.js"></script>
+<script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#title", {
+      speed: 100,
+      lifeLike: true,
+      loop: true,
+    })
+    .type("Do words have characters?")
+    .pause(1000)
+    .move(-12)
+    .type(" (our) ")
+    .pause(1000)
+    .move(12)
+    .delete(12)
+    .type("personalities?")
+    .pause(1000)
+    .delete(14)
+    .type("traits?")
+    .pause(1000)
+    .delete(7)
+    .type("emotions?")
+    .go();
+  });
+
+  PERSONALITY_ATTRS = ['neuroticism', 'anxiety', 'hostility', 'depression',
+                     'self_consciousness', 'immoderation', 'vulnerability', 'extraversion',
+                     'friendliness', 'gregariousness', 'assertiveness', 'activity_level',
+                     'excitement_seeking', 'cheerfulness', 'openness', 'imagination',
+                     'artistic_interests', 'emotionality', 'adventurousness', 'intellect',
+                     'liberalism', 'agreeableness', 'trust', 'morality', 'altruism',
+                     'cooperation', 'modesty', 'sympathy', 'conscientiousness',
+                     'self_efficacy', 'orderliness', 'dutifulness', 'achievement_striving',
+                     'self_discipline', 'cautiousness']
+  attributes = []
+  for (let attr of PERSONALITY_ATTRS) {
+    attributes.push({label: attr, value: attr, disabled: false, selected: attr == "depression" ? true : false})
+  }
+  const element = document.querySelector('.personality-selector');
+  const choices = new Choices(element, {
+    choices: attributes,
+    placeholder: true,
+    placeholderValue: "Select a personality"
+  });
+  personality_frame_el = document.querySelector('.personality-frame');
+  element.addEventListener('choice', function(event) {
+    personality_frame_el.src = `html/world-map-${event.detail.choice.value}.html`
+  });
+  (function(){
+  var grid;
+  function init() {
+    grid = new Minigrid({
+      container: '.cards',
+      item: '.card',
+      gutter: 12
+    });
+    grid.mount();
+  }
+  
+  // mount
+  function update() {
+    grid.mount();
+  }
+
+  document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('resize', update);
+  })();
+</script>
+</body>
+</html>
